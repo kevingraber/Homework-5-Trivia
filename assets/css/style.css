@@ -1,9 +1,11 @@
 h1 {
-	color:pink;
 	font-family: 'Metal Mania', cursive;
 }
 
-
+p {
+	font-family: 'Metal Mania', cursive;
+	font-size:20px
+}
 
 .choice {
 	background-color:pink;
