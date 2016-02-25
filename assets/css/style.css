@@ -1,0 +1,32 @@
+h1 {
+	color:pink;
+	font-family: 'Metal Mania', cursive;
+}
+
+
+
+.choice {
+	background-color:pink;
+	font-size:40px;
+	font-family: 'Metal Mania', cursive;
+	margin:5px;
+}
+
+.choice:hover {
+	/*background-color:yellow;*/
+	cursor:pointer;
+}
+
+.question {
+	font-family: 'Metal Mania', cursive;
+	font-size:60px;
+}
+
+.correct {
+	background-color: lightgreen;
+	transition: .5s;
+}
+ .wrong {
+ 	background-color: red;
+	transition: .5s;
+ }
