@@ -1,6 +1,6 @@
 var first = {
 	// question: "What is the name of Black Sabbath's first album?",
-	question: '<iframe width="854" height="480" src="https://www.youtube.com/embed/PGNiXGX2nLU?autoplay=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>',
+	question: '<iframe width="854" height="480" src="https://www.youtube.com/embed/PGNiXGX2nLU?autoplay=1&showinfo=0&controls=0start=78" frameborder="0" allowfullscreen></iframe>',
 	choice1: "Black Sabbath",
 	choice2: "Paranoid",
 	choice3: "Masters of Reality",
