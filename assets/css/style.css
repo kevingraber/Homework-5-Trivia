@@ -1,27 +1,40 @@
 h1 {
-	font-family: 'Metal Mania', cursive;
+	/*font-family: 'Metal Mania', cursive;*/
+	font-family: 'Quando', serif;
+	font-size:70px;
 }
 
 p {
-	font-family: 'Metal Mania', cursive;
-	font-size:20px
+/*	font-family: 'Metal Mania', cursive;*/
+	font-family: 'Quando', serif;
+	font-size:25px
+}
+
+h2 {
+	font-family: 'Quando', serif;
 }
 
 .choice {
 	background-color:pink;
-	font-size:40px;
-	font-family: 'Metal Mania', cursive;
+	font-size:20px;
+		font-family: 'Quando', serif;
+/*	font-family: 'Metal Mania', cursive;*/
 	margin:5px;
 }
 
 .choice:hover {
 	/*background-color:yellow;*/
+	opacity:.8;
 	cursor:pointer;
+	width: 102.5%;
+	/*margin-left:-5px;
+	margin-right:-5px;*/
 }
 
 .question {
-	font-family: 'Metal Mania', cursive;
-	font-size:60px;
+		font-family: 'Quando', serif;
+/*	font-family: 'Metal Mania', cursive;*/
+	font-size:25px;
 }
 
 .correct {
@@ -32,3 +45,30 @@ p {
  	background-color: red;
 	transition: .5s;
  }
+
+.red {
+	color:red;
+}
+
+.timer {
+	transition:.5s;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+	background-color: gray;
+	height:100%;
+}
+
+.container {
+	background-color:white;
+	min-height:100%;
+	box-shadow: 2px 0px 15px black;
+}
+
+img {
+	border-radius: 10px;
+}
