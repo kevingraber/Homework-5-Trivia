@@ -224,6 +224,7 @@ function correctanswer() {
 }
 
 function wronganswer() {
+	numberwrong++;
 	$(".question").html("Wrong!");
 	$(".info").html("<p>"+questions[num].info+"</p>");
 	if ($(".choice").text() == questions[num].answer) {
@@ -244,19 +245,19 @@ function endgame() {
 	$("button").show();
 };
 
+
 $(".choice").click(function() {
 	if ($(this).text() == questions[num].answer) {
-		// alert("wew");
 		numbercorrect++;
 		correctanswer();
 		stop();
 		$(this).addClass("correct");
-		// $(".score").html("<p>Score: " + numbercorrect + "</p>")
 	} else {
-		// alert("nerp");
-		numberwrong++;
+		// numberwrong++;
 		wronganswer();
 		stop();
 		$(this).addClass("wrong");
+		// $('.choice:contains("Night of the Living Dead")').addClass("correct");
+		$(".choice:contains('" + questions[num].answer + "')").addClass("correct");
 	};
 });
