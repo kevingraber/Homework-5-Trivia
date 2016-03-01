@@ -1,6 +1,6 @@
 // ========= Tagline Questions =========
 var tagOne = {
-	question: 'The good news is your dates are here. The bad news is... they&#8217re dead.',
+	question: "The good news is your dates are here. The bad news is... they're dead",
 	choice1: "Prom Night",
 	choice2: "The House on Sorority Row",
 	choice3: "Night of the Creeps",
@@ -10,7 +10,7 @@ var tagOne = {
 };
 
 var tagTwo = {
-	question: 'Sometimes dead is better.',
+	question: '"Sometimes dead is better."',
 	choice1: "Re-Animator",
 	choice2: "Pet Sematary",
 	choice3: "Day of the Dead",
@@ -20,7 +20,7 @@ var tagTwo = {
 }
 
 var tagThree = {
-	question: 'If this movie doesn&#8217t make your skin crawl... it&#8217s on too tight!',
+	question: "If this one doesn't make your skin crawl... it's on too tight!",
 	choice1: "The Last House on the Left",
 	choice2: "Maniac",
 	choice3: "Black Christmas",
@@ -31,7 +31,7 @@ var tagThree = {
 };
 
 var tagFour = {
-	question: 'The night HE came home.',
+	question: "The night HE came home.",
 	choice1: "Halloween",
 	choice2: "Friday the 13th",
 	choice3: "The Haunting",
@@ -41,7 +41,7 @@ var tagFour = {
 };
 
 var tagFive = {
-	question: "When there&#8217s no more room in hell, the dead will walk the earth.",
+	question: "When there's no more room in hell, the dead will walk the earth.",
 	choice1: "Night of the Living Dead",
 	choice2: "28 Days Later",
 	choice3: "World War Z",
@@ -101,117 +101,24 @@ var tagTen = {
 };
 
 // ========= Theme Questions ============
-var quoteOne = {
-	question: '"Listen to them. Children of the night. What music they make!"',
-	choice1: "American Werewolf in London",
-	choice2: "Plan 9 From Outer Space",
-	choice3: "Dracula",
-	choice4: "The Brood",
-	answer: "Dracula",
-	info: "<img src='http://24.media.tumblr.com/697f466cc96c29cb5d2103b2240f867f/tumblr_n4htdeHuKy1sitpgeo1_500.gif'>"
+var hpone = {
+	question: "<audio src='phantasm.mp3' autoplay controls></audio>",
+	choice1: "Transfiguration",
+	choice2: "Defense Against the Dark Arts",
+	choice3: "Divination",
+	choice4: "Herbology",
+	answer: "Transfiguration",
 };
-
-var quoteTwo = {
-	question: '"Do you like scary movies?"',
-	choice1: "I Know What You Did Last Summer",
-	choice2: "Scream",
-	choice3: "Fright Night",
-	choice4: "Friday the 13th",
-	answer: "Scream",
-	info: "<img src='https://598d5fcf392acad97538-395e64798090ee0a3a571e8c148d44f2.ssl.cf1.rackcdn.com/6394967_everything-i-need-to-know-i-learned-from_t17ea4b69.gif'>"
-};
-
-var quoteThree = {
-	question: '"Here&#8217s Johnny!"',
-	choice1: "Johnny Dies at the End",
-	choice2: "Vertigo",
-	choice3: "Trick 'r' Treat",
-	choice4: "The Shining",
-	answer: "The Shining",
-	info: "<img src='https://media.giphy.com/media/PV685oZSzSfbq/giphy.gif'>"
-};
-
-var quoteFour = {
-	question: '"We belong dead!"',
-	choice1: "Bride of Frankenstein",
-	choice2: "Ed Wood",
-	choice3: "The Wicker Man",
-	choice4: "Night of the Living Dead",
-	answer: "Bride of Frankenstein",
-	info: "<img src='http://2.bp.blogspot.com/-cT4h0_EjyA4/VKxib-O3UII/AAAAAAAALxM/Txgwjg5cufg/s1600/tumblr_mw11m54aBM1soljxao1_500.gif'>"
-};
-
-var quoteFive = {
-	question: '"I&#8217m your number one fan."',
-	choice1: "Hellraiser",
-	choice2: "The Howling",
-	choice3: "The Faculty",
-	choice4: "Misery",
-	answer: "Misery",
-	info: "<img src='http://31.media.tumblr.com/96189f8ac0c5a47a865d5a7a2b293c59/tumblr_mva90rdUim1sknqf5o1_500.gif'>"
-};
-
-var quoteSix = {
-	question: '"Good. Bad. I&#8217m the guy with the gun."',
-	choice1: "Dawn of the Dead",
-	choice2: "Army of Darkness",
-	choice3: "April Fools&#8217 Day",
-	choice4: "My Bloody Valentine",
-	answer: "Army of Darkness",
-	info: "<img src='http://i.imgur.com/8Oi9L3s.gif'>"
-};
-
-var quoteSeven = {
-	question: '"A boy&#8217s best friend is his mother."',
-	choice1: "Psycho",
-	choice2: "The Devil's Rejects",
-	choice3: "House of 1000 Corpses",
-	choice4: "The Wolfman",
-	answer: "Psycho",
-	info: "<img src='http://i760.photobucket.com/albums/xx249/christinaandpaul/tumblr_ld1j7mzzxE1qavmb0o1_r3_500_zps58f26f81.gif'>"
-};
-
-var quoteEight = {
-	question: '"They&#8217re coming to get you, Barbara!"',
-	choice1: "The Last Man on Earth",
-	choice2: "City of the Dead",
-	choice3: "Night of the Living Dead",
-	choice4: "Zombi",
-	answer: "Night of the Living Dead",
-	info: "<img src='https://media.giphy.com/media/Tye06ZLDNPpfy/giphy.gif'>"
-};
-
-var quoteNine = {
-	question: '"I have come here to chew bubblegum and kick ass... and I&#8217m all out of bubblegum."',
-	choice1: "Germlins",
-	choice2: "They Live",
-	choice3: "Night of the Demons",
-	choice4: "The Ward",
-	answer: "They Live",
-	info: "<img src='http://24.media.tumblr.com/tumblr_l6bsdrZg6e1qc54lpo1_500.gif'>"
-};
-
-var quoteTen = {
-	question: '"A census taker once tried to test me. I ate his liver with some fava beans and a nice chianti."',
-	choice1: "Jiro Dreams of Sushi",
-	choice2: "Red Dragon",
-	choice3: "Silence of the Lambs",
-	choice4: "Se7en",
-	answer: "Silence of the Lambs",
-	info: "<img src='http://media.tumblr.com/tumblr_lxsq1kw8Ao1qzjayb.gif'>"
-};
-
-
 
 // ========= Trivia Questions ===========
 var horOne = {
-	question: 'Which classic horror movie did Johnny Depp appear in?',
-	choice1: "The Wicker Man",
-	choice2: "Friday the 13th",
-	choice3: "A Nightmare on Elm Street",
-	choice4: "Halloween",
-	answer: "A Nightmare on Elm Street",
-	info: "<img src='https://38.media.tumblr.com/78f6ca671140cb1c3e1519c5449a478b/tumblr_nulhnzs3rG1ubkx5eo1_500.gif'>"
+	question: '"Theyre coming to get you Barabara!" is a quote from which of the following films?',
+	choice1: "Dawn of the Dead",
+	choice2: "Night of the Living Dead",
+	choice3: "The Last Man on Earth",
+	choice4: "Day of the Dead",
+	answer: "Night of the Living Dead",
+	info: "<img src='https://49.media.tumblr.com/8482a600a426b5295e8a5f15f2b0001d/tumblr_nkrjrje8nv1spq12ao1_500.gif'>"
 };
 
 var horTwo = {
@@ -295,13 +202,13 @@ var horNine = {
 };
 
 var horTen = {
-	question: "What is the top grossing horror movie of all time?",
-	choice1: "Ghostbusters",
-	choice2: "The Exorcist",
-	choice3: "Jaws",
-	choice4: "The Sixth Sense",
-	answer: "The Sixth Sense",
-	info: "<img src='https://49.media.tumblr.com/ba1ad7611194cde8b29d2ffe8ec2eb14/tumblr_n4q4yld8kZ1s9816mo5_r1_500.gif'>"
+	question: "30 Days of Night takes place in the northernmost city in the U.S. Which city?",
+	choice1: "Fairbanks, Alaska",
+	choice2: "Juneau, Alaska",
+	choice3: "Anchorage, Alaska",
+	choice4: "Barrow, Alaska",
+	answer: "Barrow, Alaska",
+	info: "<img src='https://45.media.tumblr.com/b94e3d6ef818fe0f2a9af36ae3c73a21/tumblr_nzzcw0OQvE1seoyyho1_500.gif'>"
 };
 
 
@@ -309,7 +216,7 @@ var horTen = {
 
 // ==================
 var taglineQuestions = [tagOne, tagTwo, tagThree, tagFour, tagFive, tagSix, tagSeven, tagEight, tagNine, tagTen];
-var quoteQuestions = [quoteOne, quoteTwo, quoteThree, quoteFour, quoteFive, quoteSix, quoteSeven, quoteEight, quoteNine, quoteTen];
+var themeQuestions = [hpone];
 var triviaQuestions = [horOne, horTwo, horThree, horFour, horFive, horSix, horSeven, horEight, horNine, horTen]
 var questions = [];
 
@@ -321,7 +228,7 @@ $(".taglineButton").click(function() {
 })
 
 $(".themeButton").click(function() {
-	questions = quoteQuestions;
+	questions = themeQuestions;
 	nextquestion();
 	$("button").hide();
 })
@@ -348,6 +255,7 @@ function nextquestion() {
 	$(".ans3").html(questions[num].choice3);
 	$(".ans4").html(questions[num].choice4);
 	$(".info").empty();
+	$(".choice").removeClass("correct").removeClass("wrong");
 };
 
 function increment() {
@@ -373,14 +281,17 @@ function stop() {
 };
 
 function correctanswer() {
-	$(".question").html("Correct!");
+	$(".question").html("Correct");
 	$(".info").html("<p>"+questions[num].info+"</p>");
 }
 
 function wronganswer() {
 	numberwrong++;
-	$(".question").html("Wrong! <p>The correct answer was: "+questions[num].answer+"</p>");
+	$(".question").html("Wrong!");
 	$(".info").html("<p>"+questions[num].info+"</p>");
+	if ($(".choice").text() == questions[num].answer) {
+		$(this).addClass("correct");
+	};
 };
 
 
@@ -399,14 +310,22 @@ function endgame() {
 
 $(".choice").click(function() {
 
+	$(".choice").empty();
+
+
 	if ($(this).text() == questions[num].answer) {
 		numbercorrect++;
 		correctanswer();
 		stop();
+		$(this).addClass("correct");
 	} else {
+		// numberwrong++;
 		wronganswer();
 		stop();
-	};
+		$(this).addClass("wrong");
+		// $('.choice:contains("Night of the Living Dead")').addClass("correct");
+		// $(".choice:contains('" + questions[num].answer + "')").addClass("correct");
+		$(".choice:contains('" + questions[num].answer + "')").append("hellooooo");
 
-	$(".choice").empty();
+	};
 });
