@@ -108,7 +108,7 @@ var quoteOne = {
 	choice3: "Dracula",
 	choice4: "The Brood",
 	answer: "Dracula",
-	info: "<img src='http://24.media.tumblr.com/697f466cc96c29cb5d2103b2240f867f/tumblr_n4htdeHuKy1sitpgeo1_500.gif'>"
+	info: "<img src='assets/images/gifs/bela.gif'>"
 };
 
 var quoteTwo = {
@@ -118,7 +118,7 @@ var quoteTwo = {
 	choice3: "Fright Night",
 	choice4: "Friday the 13th",
 	answer: "Scream",
-	info: "<img src='https://598d5fcf392acad97538-395e64798090ee0a3a571e8c148d44f2.ssl.cf1.rackcdn.com/6394967_everything-i-need-to-know-i-learned-from_t17ea4b69.gif'>"
+	info: "<img src='assets/images/gifs/scream.gif'>"
 };
 
 var quoteThree = {
@@ -128,7 +128,7 @@ var quoteThree = {
 	choice3: "Trick 'r' Treat",
 	choice4: "The Shining",
 	answer: "The Shining",
-	info: "<img src='https://media.giphy.com/media/PV685oZSzSfbq/giphy.gif'>"
+	info: "<img src='assets/images/gifs/jack.gif'>"
 };
 
 var quoteFour = {
@@ -138,7 +138,7 @@ var quoteFour = {
 	choice3: "The Wicker Man",
 	choice4: "Night of the Living Dead",
 	answer: "Bride of Frankenstein",
-	info: "<img src='http://2.bp.blogspot.com/-cT4h0_EjyA4/VKxib-O3UII/AAAAAAAALxM/Txgwjg5cufg/s1600/tumblr_mw11m54aBM1soljxao1_500.gif'>"
+	info: "<img src='assets/images/gifs/frank.gif'>"
 };
 
 var quoteFive = {
@@ -148,7 +148,7 @@ var quoteFive = {
 	choice3: "The Faculty",
 	choice4: "Misery",
 	answer: "Misery",
-	info: "<img src='http://31.media.tumblr.com/96189f8ac0c5a47a865d5a7a2b293c59/tumblr_mva90rdUim1sknqf5o1_500.gif'>"
+	info: "<img src='assets/images/gifs/misery.gif'>"
 };
 
 var quoteSix = {
@@ -158,7 +158,7 @@ var quoteSix = {
 	choice3: "April Fools&#8217 Day",
 	choice4: "My Bloody Valentine",
 	answer: "Army of Darkness",
-	info: "<img src='http://i.imgur.com/8Oi9L3s.gif'>"
+	info: "<img src='assets/images/gifs/ash.gif'>"
 };
 
 var quoteSeven = {
@@ -168,7 +168,7 @@ var quoteSeven = {
 	choice3: "House of 1000 Corpses",
 	choice4: "The Wolfman",
 	answer: "Psycho",
-	info: "<img src='http://i760.photobucket.com/albums/xx249/christinaandpaul/tumblr_ld1j7mzzxE1qavmb0o1_r3_500_zps58f26f81.gif'>"
+	info: "<img src='assets/images/gifs/psycho.gif'>"
 };
 
 var quoteEight = {
@@ -178,7 +178,7 @@ var quoteEight = {
 	choice3: "Night of the Living Dead",
 	choice4: "Zombi",
 	answer: "Night of the Living Dead",
-	info: "<img src='https://media.giphy.com/media/Tye06ZLDNPpfy/giphy.gif'>"
+	info: "<img src='assets/images/gifs/notld.gif'>"
 };
 
 var quoteNine = {
@@ -188,7 +188,7 @@ var quoteNine = {
 	choice3: "Night of the Demons",
 	choice4: "The Ward",
 	answer: "They Live",
-	info: "<img src='http://24.media.tumblr.com/tumblr_l6bsdrZg6e1qc54lpo1_500.gif'>"
+	info: "<img src='assets/images/gifs/theylive.gif'>"
 };
 
 var quoteTen = {
@@ -198,7 +198,7 @@ var quoteTen = {
 	choice3: "Silence of the Lambs",
 	choice4: "Se7en",
 	answer: "Silence of the Lambs",
-	info: "<img src='http://media.tumblr.com/tumblr_lxsq1kw8Ao1qzjayb.gif'>"
+	info: "<img src='assets/images/gifs/lector.gif'>"
 };
 
 
@@ -211,7 +211,7 @@ var horOne = {
 	choice3: "A Nightmare on Elm Street",
 	choice4: "Halloween",
 	answer: "A Nightmare on Elm Street",
-	info: "<img src='https://38.media.tumblr.com/78f6ca671140cb1c3e1519c5449a478b/tumblr_nulhnzs3rG1ubkx5eo1_500.gif'>"
+	info: "<img src='assets/images/gifs/depp.gif'>"
 };
 
 var horTwo = {
@@ -221,7 +221,7 @@ var horTwo = {
 	choice3: "Oatlands Park Hotel",
 	choice4: "The Grand Budapest Hotel",
 	answer: "The Overlook Hotel",
-	info: "<img src='http://replygif.net/i/223.gif'"
+	info: "<img src='assets/images/gifs/torrence.gif'"
 };
 
 var horThree = {
@@ -231,7 +231,7 @@ var horThree = {
 	choice3: "Silence of the Lambs",
 	choice4: "Rosemary's Baby",
 	answer: "Silence of the Lambs",
-	info: "<img src='http://24.media.tumblr.com/86b51b546e24244d503eb30cabef53e3/tumblr_mlc9xe08pZ1roi22oo1_500.gif'"
+	info: "<img src='assets/images/gifs/wink.gif'"
 };
 
 var horFour = {
@@ -241,7 +241,7 @@ var horFour = {
 	choice3: "Count Herzog",
 	choice4: "Count Orlok",
 	answer: "Count Orlok",
-	info: "<img src='http://www.lovethisgif.com/uploaded_images/1910-nosferatu.gif?1'>"
+	info: "<img src='assets/images/gifs/orlok.gif'>"
 };
 
 var horFive = {
@@ -251,7 +251,7 @@ var horFive = {
 	choice3: "Christopher Lee",
 	choice4: "Max Schreck",
 	answer: "Christopher Lee",
-	info: "<img src='http://49.media.tumblr.com/aac3ba4ebb49c37db0b49747540f520e/tumblr_o2cjip3xr91rp0vkjo1_500.gif'>"
+	info: "<img src='assets/images/gifs/draculalee.gif'>"
 };
 
 var horSix = {
@@ -261,7 +261,7 @@ var horSix = {
 	choice3: "The Fall of the House of Usher",
 	choice4: "Ligeia",
 	answer: "The Masque of the Red Death",
-	info: "<img src='https://s-media-cache-ak0.pinimg.com/originals/29/68/ca/2968caccc6ebb58ce9eca34e4b20bdb5.gif'>"
+	info: "<img src='assets/images/gifs/reddeath.gif'>"
 };
 
 var horSeven = {
@@ -271,7 +271,7 @@ var horSeven = {
 	choice3: "Halloween",
 	choice4: "The Amityville Horror",
 	answer: "The Amityville Horror",
-	info: "<img src='http://www.tasteofcinema.com/wp-content/uploads/2014/12/The-Amityville-Horror-1979.jpg'>"
+	info: "<img src='assets/images/gifs/horror.jpg'>"
 };
 
 var horEight = {
@@ -281,7 +281,7 @@ var horEight = {
 	choice3: "Pazuzu",
 	choice4: "Lamashtu",
 	answer: "Pazuzu",
-	info: "<img src='http://40.media.tumblr.com/a5aa6418e4983048cddcf0e5fe339b5e/tumblr_n30b1nZFgk1tu7ljfo1_500.png'>"
+	info: "<img src='assets/images/gifs/pazuzu.png'>"
 };
 
 var horNine = {
@@ -291,7 +291,7 @@ var horNine = {
 	choice3: "Psycho",
 	choice4: "Frankenstein",
 	answer: "Invasion of the Body Snatchers",
-	info: "<img src='https://media.giphy.com/media/xvCCcLWlIu1QQ/giphy.gif'>"
+	info: "<img src='assets/images/gifs/donald.gif'>"
 };
 
 var horTen = {
@@ -301,7 +301,7 @@ var horTen = {
 	choice3: "Jaws",
 	choice4: "The Sixth Sense",
 	answer: "The Sixth Sense",
-	info: "<img src='https://49.media.tumblr.com/ba1ad7611194cde8b29d2ffe8ec2eb14/tumblr_n4q4yld8kZ1s9816mo5_r1_500.gif'>"
+	info: "<img src='assets/images/gifs/six.gif'>"
 };
 
 
