@@ -51,7 +51,7 @@ var tagFive = {
 };
 
 var tagSix = {
-	question: "Herbet West has a very good head on his shoulders... and another one on his desk.",
+	question: "Herbet West has a good head on his shoulders... and another one on his desk.",
 	choice1: "The Thing",
 	choice2: "From Beyond",
 	choice3: "Scanners",
@@ -100,7 +100,7 @@ var tagTen = {
 	info: "<img src='assets/images/birds.jpg'>"
 };
 
-// ========= Theme Questions ============
+// ========= Quote Questions ============
 var quoteOne = {
 	question: '"Listen to them. Children of the night. What music they make!"',
 	choice1: "American Werewolf in London",
@@ -245,7 +245,7 @@ var horFour = {
 };
 
 var horFive = {
-	question: "Which actor has the most on-screen appearances as Dracula",
+	question: "Which actor has the most on-screen appearances as Dracula?",
 	choice1: "Bela Lugosi",
 	choice2: "Klaus Kinski",
 	choice3: "Christopher Lee",
@@ -305,39 +305,26 @@ var horTen = {
 };
 
 
-
-
-// ==================
+// Creating arrays that will hold the questions for each category.
 var taglineQuestions = [tagOne, tagTwo, tagThree, tagFour, tagFive, tagSix, tagSeven, tagEight, tagNine, tagTen];
 var quoteQuestions = [quoteOne, quoteTwo, quoteThree, quoteFour, quoteFive, quoteSix, quoteSeven, quoteEight, quoteNine, quoteTen];
-var triviaQuestions = [horOne, horTwo, horThree, horFour, horFive, horSix, horSeven, horEight, horNine, horTen]
+var triviaQuestions = [horOne, horTwo, horThree, horFour, horFive, horSix, horSeven, horEight, horNine, horTen];
+
+// The empty array that will be populated when the user selects a category.
 var questions = [];
 
-// Category Select Buttons
-$(".taglineButton").click(function() {
-	questions = taglineQuestions;
-	nextquestion();
-	$("button").hide();
-})
-
-$(".themeButton").click(function() {
-	questions = quoteQuestions;
-	nextquestion();
-	$("button").hide();
-})
-
-$(".horror").click(function() {
-	questions = triviaQuestions;
-	nextquestion();
-	$("button").hide();
-})
-
-
+// Setting initial variable values. 
 var num = 0;
 var time = 30;
 var numbercorrect = 0;
 var numberwrong = 0;
+var numtimeout = 0;
 
+
+
+// ========= Functions ==========
+
+// Sets the time back to 30s, sets an interval for the timer, displays the next question.
 function nextquestion() {
 	time = 30;
 	counter = setInterval(increment, 1000);
@@ -350,18 +337,21 @@ function nextquestion() {
 	$(".info").empty();
 };
 
+// Counts down & displays the remaining time. Stops if time = 0 and starts an animation when time remaining < 10sec.
 function increment() {
 	time--
 	$(".timer").html("<h2>Time Remaining: " + time + "</h2>")
 	if (time == 0) {
-		wronganswer();
+		timeout();
 		stop();
+		$(".choice").empty();
 	} else if (time < 10) {
 		$(".timer").addClass("red");
 		setTimeout(function(){$(".timer").removeClass("red")}, 500)
 	};
 };
 
+// Stops the timer. If there are more questions go on to the next, if not end the game. 
 function stop() {
 	clearInterval(counter);
 	num++;
@@ -372,31 +362,64 @@ function stop() {
 	};
 };
 
+// Lets the user know they got the question right and displays an image.
 function correctanswer() {
-	$(".question").html("Correct!");
+	$(".question").html("<p>Correct!</p>");
 	$(".info").html("<p>"+questions[num].info+"</p>");
 }
 
+// Counts a wrong answer, tells the user they are wrong, and displays an image. 
 function wronganswer() {
 	numberwrong++;
-	$(".question").html("Wrong! <p>The correct answer was: "+questions[num].answer+"</p>");
+	$(".question").html("<p>Wrong! <br> The correct answer was: "+questions[num].answer+"</p>");
 	$(".info").html("<p>"+questions[num].info+"</p>");
 };
 
+// Counts a failure to answer the question, tells the user they are out of time, and displays an image. 
+function timeout() {
+	numtimeout++;
+	$(".question").html("<p>Time's up! <br> The correct answer was: "+questions[num].answer+"</p>");
+	$(".info").html("<p>"+questions[num].info+"</p>");
+}
 
+// Tells the user how many questions they got right/wrong/unanswered. Resets variables and shows buttons so the user can play again. 
 function endgame() {
 	$(".question").html("<h2>You got " + numbercorrect + " answers correct!</h2>"
-		+ "<h2>You got " + numberwrong + " wrong!</h2>");
+		+ "<h2>You got " + numberwrong + " wrong!</h2>" + "<h2>You didn't answer " + numtimeout + " questions!</h2>");
 	$(".choice").empty();
 	$(".timer").empty();
 	$(".info").empty();
 	num = 0;
 	numbercorrect = 0;
 	numberwrong = 0;
+	numtimeout=0;
 	$("button").show();
 };
 
 
+// Category select buttons.
+$(".taglineButton").click(function() {
+	questions = taglineQuestions;
+	nextquestion();
+	$("button").hide();
+	$(".intro").hide();
+});
+
+$(".themeButton").click(function() {
+	questions = quoteQuestions;
+	nextquestion();
+	$("button").hide();
+	$(".intro").hide();
+});
+
+$(".triviaButton").click(function() {
+	questions = triviaQuestions;
+	nextquestion();
+	$("button").hide();
+	$(".intro").hide();
+});
+
+// Clicking on a choice.
 $(".choice").click(function() {
 
 	if ($(this).text() == questions[num].answer) {
